@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+}
+h2 {
+    font-family: 'Pretendard-Thin';
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 50px;
+    font-size: 23px;
+}
+h3 {
+    font-family: 'Pretendard-Thin';
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+/* 상단바 */
+
+.menu * {
+    display: inline;
+}
+
+.menu li {
+    margin: 35px;
+}
+
+.menu li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+
+.menu {
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+} 
+
+/* page 1 */
+
+.one {
+    background-size: cover;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.profile {
+    border-radius: 30%;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-top: 20px;
+    border: 1px solid rgb(133, 63, 187);
+    background-color: rgba(14, 107, 188, 0.1);
+    border: 1px solid rgba(28, 60, 37, 0.5);
+}
+
+.profile img {
+    border-radius: 30%;
+}
+
+/* page 2 */
+
+.intext {
+    float: right;
+    align-content: center;
+    margin-top: 7px;
+    padding-left: 45px;
+}
+
+/* page 3 */
+
+h1 {
+    text-align: center;
+}
+
+.lists{
+    text-align: center;
+    font-family: 'Pretendard-Thin';
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Pretendard-Thin';
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.list_img {
+    width: 300px;
+    height: 360px;
+    display: block;
+    margin: 7vh 5vh;
+    margin-bottom: 50px;
+}
+
+.favorites {
+    display:inline-flex;
+    margin-top: 60px;
+}
+
+/* page 4 */
+
+.four {
+    text-align: center;
+    align-items: center;
+}
+
+.contact_img {
+    width: 100%;
+    height: 500px;
+    padding-bottom: 60px;
+}
+
+.ct {
+    margin-top: 80px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    margin: 35px;
+}
+
+/* 이 부분이 없으면 스크롤 바 두 개가 생성된다 */
+
+body {
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Scroll down */
+
+#container{
+    width:100%;
+    height:100vh; 
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.list{
+    width:100%; 
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
+/* .list:nth-child(1){
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center; 
+} */
+
+.list:nth-child(2){
+    background-color: #4e5a56;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.list:nth-child(3){
+    background-color: #9d949e;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.list:nth-child(4){
+    background-color: #e0d8cc;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.list:nth-child(5){
+    background-color: #d79382;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center; 
+}
